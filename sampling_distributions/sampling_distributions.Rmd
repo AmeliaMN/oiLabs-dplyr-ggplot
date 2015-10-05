@@ -30,7 +30,8 @@ interest. In this lab we would like to learn about these home sales by taking
 smaller samples from the full population. Let's load the data.
 
 ```{r load-data}
-load(url("https://stat.duke.edu/~mc301/data/ames.RData")) # will need to be updated
+data(ames)
+head(ames)
 ```
 
 We see that there are quite a few variables in the data set, enough to do a 
